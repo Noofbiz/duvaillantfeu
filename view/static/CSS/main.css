@@ -1,0 +1,184 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    background-color: #EFEFEF;
+}
+
+body {
+    padding-top: 85px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+header#myCarousel {
+  margin-top: -20px;
+}
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+header.carousel .carousel-indicators > li.active{
+  background-color: #FF3B3F;
+  border: 1px solid #FF3B3F;
+}
+
+header.carousel .carousel-indicators > li{
+  border: 1px solid #FF3B3F;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/* watermelon rows */
+hr.watermelon {
+  border-top: 1px dashed #FF3B3F;
+}
+
+a.navbar-brand {
+  font-size: 16px;
+}
+
+/* Navbar needs to collapse earlier than default! */
+@media (max-width: 1199px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+/* Slideshow */
+img.slideshow {
+  z-index:1;
+}
+img.slideshow_switching{z-index:2;}
+img.slideshow_active{z-index:3;}
+
+/* ClustrMaps */
+#phc * {
+  display: none!important;
+}
+
+.clstrm_outer {
+  width: inherit!important;
+  height: inherit!important;
+  padding-bottom: 25px;
+}
+
+.vert_center {
+  padding-top: 10vh;
+}
+
+div.disqualifications > p {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+i.lg-icon {
+  font-size: 2.5em;
+}
+
+.framezor {
+  width: 100%;
+  height: 100%;
+}
