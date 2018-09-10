@@ -9,10 +9,9 @@ import (
 	"net/url"
 	"os"
 
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/log"
-	"google.golang.org/appengine/mail"
-	"google.golang.org/appengine/urlfetch"
+	"appengine"
+	"appengine/mail"
+	"appengine/urlfetch"
 )
 
 var tmpl = template.Must(template.ParseGlob("view/HTML/*"))
@@ -83,11 +82,10 @@ func SendApplicationHandler(w http.ResponseWriter, r *http.Request) {
 	recaptchaReq.Set("secret", os.Getenv("RECAPTCHA_SECRET_KEY"))
 	recaptchaReq.Set("response", r.FormValue("g-recaptcha-response"))
 
-	transport := urlfetch.Transport{ctx, false}
+	transport := urlfetch.Transport{Context: ctx, AllowInvalidServerCertificate: false}
 	req, r_err := http.NewRequest("POST", recaptchaURL, bytes.NewBufferString(recaptchaReq.Encode()))
 	recaptcha_resp, r_err := transport.RoundTrip(req)
 	if r_err != nil {
-		log.Errorf(ctx, "recaptcha failed: %v", r_err)
 		http.Error(w, r_err.Error(), http.StatusInternalServerError)
 		return
 	}
@@ -100,7 +98,6 @@ func SendApplicationHandler(w http.ResponseWriter, r *http.Request) {
 	json.Unmarshal(recaptcha_resp_body, &recaptcha_resp_map)
 
 	if !(recaptcha_resp_map["success"].(bool)) {
-		log.Errorf(ctx, "recaptcha response map was: %v", recaptcha_resp_map)
 		http.Error(w, "Failed recaptcha.", http.StatusInternalServerError)
 		return
 	}

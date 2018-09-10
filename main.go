@@ -3,7 +3,7 @@ package beaucerons
 import (
 	"net/http"
 
-	"laurenSite/controller"
+	"controller"
 )
 
 func init() {
