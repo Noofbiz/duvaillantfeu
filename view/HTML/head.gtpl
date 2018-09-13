@@ -10,8 +10,6 @@
 <!-- Bootstrap Core CSS -->
 <link href="/static/CSS/bootstrap.min.css" rel="stylesheet">
 
-<link rel="icon" type="image/x-icon" href="/static/images/beauce.ico">
-
 <!-- Custom CSS -->
 <link href="/static/CSS/main.css" rel="stylesheet">
 
@@ -24,4 +22,25 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+<!-- Icons -->
+<link rel="shortcut icon" href="/static/images/icons/beauce.ico" type="image/x-icon">
+<!-- For Chrome for Android: -->
+<link rel="icon" sizes="192x192" href="/static/images/icons/beauce-icon-192x192.png">
+<!-- For iPhone 6 Plus with @3× display: -->
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/static/images/icons/beauce-icon-180x180.png">
+<!-- For iPad with @2× display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/static/images/icons/beauce-icon-152x152.png">
+<!-- For iPad with @2× display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/images/icons/beauce-icon-144x144.png">
+<!-- For iPhone with @2× display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/static/images/icons/beauce-icon-120x120.png">
+<!-- For iPhone with @2× display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/images/icons/beauce-icon-114x114.png">
+<!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/static/images/icons/beauce-icon-76x76.pngg">
+<!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/images/icons/beauce-icon-72x72.png">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="/static/images/icons/beauce-icon-57x57.png"><!-- 57×57px -->
 {{end}}

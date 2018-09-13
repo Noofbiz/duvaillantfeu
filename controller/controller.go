@@ -40,6 +40,14 @@ func UpcomingLittersHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func OLitter2018Handler(w http.ResponseWriter, r *http.Request) {
+	err := tmpl.ExecuteTemplate(w, "OLitter2018", nil)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
+
 func LittersCareHandler(w http.ResponseWriter, r *http.Request) {
 	err := tmpl.ExecuteTemplate(w, "care", nil)
 	if err != nil {
@@ -58,6 +66,14 @@ func JamaisHandler(w http.ResponseWriter, r *http.Request) {
 
 func MowgliHandler(w http.ResponseWriter, r *http.Request) {
 	err := tmpl.ExecuteTemplate(w, "mowgli", nil)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
+
+func OshiHandler(w http.ResponseWriter, r *http.Request) {
+	err := tmpl.ExecuteTemplate(w, "oshi", nil)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return

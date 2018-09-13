@@ -24,6 +24,10 @@
                          <li>
                            <a href="/Litters/Upcoming">Upcoming Litters</a>
                          </li>
+                         <hr>
+                         <li>
+                          <a href="/Litters/OLitter2018">O-Litter Spring 2018</a>
+                         </li>
                          <!--
                          <hr>
                          <li>
@@ -41,6 +45,9 @@
                          <li>
                              <a href="/Parents/Mowgli">Mowgli</a>
                          </li>
+                         <li>
+                             <a href="/Parents/Oshi">Océane</a>
+                         </li>
                      </ul>
                  </li>
                  <li>
@@ -55,4 +62,4 @@
      </div>
      <!-- /.container -->
  </nav>
-{{end}}}
+{{end}}
