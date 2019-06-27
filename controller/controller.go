@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"os"
 
-	"appengine"
-	"appengine/mail"
-	"appengine/urlfetch"
+	"google.golang.org/appengine"
+	"google.golang.org/appengine/mail"
+	"google.golang.org/appengine/urlfetch"
 )
 
 var tmpl = template.Must(template.ParseGlob("view/HTML/*"))
@@ -81,6 +81,14 @@ func OshiHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func ApplyHandler(w http.ResponseWriter, r *http.Request) {
+	err := tmpl.ExecuteTemplate(w, "notactuallyapply", nil)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
+
+func ActualApplyHandler(w http.ResponseWriter, r *http.Request) {
 	err := tmpl.ExecuteTemplate(w, "apply", nil)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)

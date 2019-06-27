@@ -120,7 +120,7 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Océane.jpg" alt="Océane">
+              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Oceane.jpg" alt="Océane">
               <p class="text-center">
                 Océane Argentée du Vaillant Feu - “Océane"<br />
                 Pursuing a career in herding at Action K9 Sports <br />
