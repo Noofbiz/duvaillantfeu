@@ -137,6 +137,9 @@ func SendApplicationHandler(w http.ResponseWriter, r *http.Request) {
 		"Rent Or Own: " + r.FormValue("RentOrOwn") + "\r\n" +
 		"How many members of your household are there, and how old are they: " + r.FormValue("Household") + "\r\n" +
 		"Why do you want a beauceron and what is your experience with the breed: " + r.FormValue("WantExp") + "\r\n" +
+		"What dogs/animals have you owned in the past? How long did you have them and what happened to them if they are no longer in your care?: " + r.FormValue("PastAnimals") + "\r\n" +
+		"Vet References: " + r.FormValue("VetReference") + "\r\n" +
+		"Trainer References:  " + r.FormValue("TrainerReference") + "\r\n" +
 		"What is your dog training experience: " + r.FormValue("DogExp") + "\r\n" +
 		"What titles and training have you done with your past/current dogs: " + r.FormValue("TitlesTraining") + "\r\n" +
 		"What are you looking for in a puppy: " + r.FormValue("WhatLookingFor") + "\r\n" +

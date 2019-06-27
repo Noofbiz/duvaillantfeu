@@ -50,6 +50,18 @@
               <textarea class="form-control" name="WantExp"></textarea>
             </div>
             <div class="form-group">
+              <label>What dogs/animals have you owned in the past? How long did you have them and what happened to them if they are no longer in your care?</label>
+              <textarea class="form-control" name="PastAnimals"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Vet References: Name and Contact Information.</label>
+              <textarea class="form-control" name="VetReference"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Trainer References: Name and Contact Information.</label>
+              <textarea class="form-control" name="TrainerReference"></textarea>
+            </div>
+            <div class="form-group">
               <label>What is your dog training experience?</label>
               <textarea class="form-control" name="DogExp"></textarea>
             </div>
