@@ -42,7 +42,11 @@
               </select>
             </div>
             <div class="form-group">
-              <label>How many members of your household are there, and how old are they?</label>
+              <label>If renting, do you have your landlord's permission to own a puppy of this size?</label>
+              <textarea class="form-control" name="IfRenting"></textarea>
+            </div>
+            <div class="form-group">
+              <label>How many members are in your household, both human and animal? Please list them below with their appropriate ages and species if animal.</label>
               <textarea class="form-control" name="Household"></textarea>
             </div>
             <div class="form-group">
@@ -54,11 +58,11 @@
               <textarea class="form-control" name="PastAnimals"></textarea>
             </div>
             <div class="form-group">
-              <label>Vet References: Name and Contact Information.</label>
+              <label>Veterinary Reference - Please include name of veterinarian, contact information and how long they have known you/your pets.</label>
               <textarea class="form-control" name="VetReference"></textarea>
             </div>
             <div class="form-group">
-              <label>Trainer References: Name and Contact Information.</label>
+              <label>Personal/Training Reference - Please list the name of the individual or business, contact information, and how long they have known you/your pets</label>
               <textarea class="form-control" name="TrainerReference"></textarea>
             </div>
             <div class="form-group">
@@ -117,6 +121,10 @@
             <div class="form-group show-quality hidden">
               <label>Have you ever titled a dog to Championship or GCH before?</label>
               <input type="text" class="form-control" name="Titled">
+            </div>
+            <div class="form-group show-quality">
+              <label>By checking this box, you agree that the above information is true and valid to the best of your ability as well as stating that you have never been convicted of or involved with an animal abuse/neglect case.</label>
+              <input type="checkbox" class="form-control" name="NotAboose">
             </div>
             <div class="g-recaptcha" data-sitekey="6Lcx6h4UAAAAAF1N5UnvJaFBd_CUdkl3ZEow7QA4"></div>
             <button type="submit" class="btn btn-default">Send Application</button>

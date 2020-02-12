@@ -80,7 +80,7 @@ func OshiHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func ApplyHandler(w http.ResponseWriter, r *http.Request) {
+func NotActuallyApplyHandler(w http.ResponseWriter, r *http.Request) {
 	err := tmpl.ExecuteTemplate(w, "notactuallyapply", nil)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -88,7 +88,7 @@ func ApplyHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func ActualApplyHandler(w http.ResponseWriter, r *http.Request) {
+func ApplyHandler(w http.ResponseWriter, r *http.Request) {
 	err := tmpl.ExecuteTemplate(w, "apply", nil)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -135,6 +135,7 @@ func SendApplicationHandler(w http.ResponseWriter, r *http.Request) {
 		"Email: " + r.FormValue("Email") + "\r\n" +
 		"Address: " + r.FormValue("Address") + "\r\n" +
 		"Rent Or Own: " + r.FormValue("RentOrOwn") + "\r\n" +
+		"If renting, do you have your landlord's permission to own a puppy of this size?: " + r.FormValue("IfRenting") + "\r\n" +
 		"How many members of your household are there, and how old are they: " + r.FormValue("Household") + "\r\n" +
 		"Why do you want a beauceron and what is your experience with the breed: " + r.FormValue("WantExp") + "\r\n" +
 		"What dogs/animals have you owned in the past? How long did you have them and what happened to them if they are no longer in your care?: " + r.FormValue("PastAnimals") + "\r\n" +
@@ -152,7 +153,8 @@ func SendApplicationHandler(w http.ResponseWriter, r *http.Request) {
 		"What level are you hoping to achieve in your sport (if applicable): " + r.FormValue("SportLevel") + "\r\n" +
 		"What are you looking for in terms of drives and energy level: " + r.FormValue("DriveEnergy") + "\r\n" +
 		"What venues do you plan to show in (AKC/UKC/IABCA): " + r.FormValue("Venues") + "\r\n" +
-		"Have you ever titled a dog to Championship or GCH before: " + r.FormValue("Titled") + "\r\n"
+		"Have you ever titled a dog to Championship or GCH before: " + r.FormValue("Titled") + "\r\n" +
+		"Did they say they don't abuse animals?: " + r.FormValue("NotAboose") + "\r\n"
 
 	msg := &mail.Message{
 		Sender:  "New Applicant <applications@beaucerons-163616.appspotmail.com>",

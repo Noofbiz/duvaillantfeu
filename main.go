@@ -19,7 +19,7 @@ func main() {
 	http.HandleFunc("/Parents/Mowgli", controller.MowgliHandler)
 	http.HandleFunc("/Parents/Oshi", controller.OshiHandler)
 	http.HandleFunc("/Apply", controller.ApplyHandler)
-	http.HandleFunc("/ActuallyApply", controller.ActualApplyHandler)
+	http.HandleFunc("/NotActuallyApply", controller.NotActuallyApplyHandler)
 	http.HandleFunc("/Apply/Send", controller.SendApplicationHandler)
 	http.HandleFunc("/Apply/Success", controller.SuccessfulApplicationHandler)
 	http.HandleFunc("/Contact", controller.ContactHandler)
