@@ -5,7 +5,7 @@
 <meta name="description" content="A site for Beauceron dog breeding">
 <meta name="author" content="Jerry Caligiure">
 
-<title>Du Vaillant Feu Beaucerons</title>
+<title>Beaucerons du Vaillant Feu</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="/static/CSS/bootstrap.min.css" rel="stylesheet">

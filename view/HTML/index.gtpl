@@ -36,10 +36,11 @@
         <div class="panel">
             <div class="panel-body">
               <div class="col-md-12">
-                  <h2 class="page-header">Welcome to Du Vaillant Feu Beaucerons!</h2>
+                  <h4 class="text-secondary closer-headers-top">Beaucerons du Vaillant Feu</h4>
+                  <h3 class="page-header closer-headers-bottom">"Difficult to describe, unmistakable when present"</h3>
               </div>
               <div class="col-md-4">
-                  <p> Welcome to the Vaillant Feu kennel, a small hobby breeder in Southern California focused on breeding the best in versatility, stability, health and temperament. All dogs being bred in this kennel have received Excellent ratings at our Journée de Beauceron from French judges and have proven themselves in different working capacities. Here at Vaillant Feu, we pride ourselves on our beaucerons being as true to working form as they can be and being the "country gentleman" that our standard calls for; never timid or harsh, always unwaveringly frank and courageous. </p>
+                  <p> Welcome to the Vaillant Feu kennel, a small volume preservation breeder in Southern California focused on breeding the best in versatility, stability, health and temperament. As a preservation breeder, it is our job to preserve and protect the legacy of the Beauceron and work to move the breed forward. All dogs being bred in this kennel have received Excellent ratings at our Journée de Beauceron from French judges and have proven themselves in different working capacities. Here at Vaillant Feu, we pride ourselves on our beaucerons being as true to working form as they can be and being the "country gentleman" that our standard calls for; never timid or harsh, always unwaveringly frank and courageous. </p>
                   <p> We are a small up and coming breeder located in San Diego County, California. Our passion for the breed is represented in the dogs we choose to breed and the work we dedicate them to. At Vaillant Feu, conformation to the standard with an aesthetically pleasing functional form, stability in all environments and the necessary drives to compete are what we put first. The Beauceron is an ancient French symbol of partnership and dedication to the job. We hope to produce for our fellow breed enthusiasts a dog you can do anything with, a versatile beauceron with exceptional temperament. </p>
               </div>
               <div class="col-md-4">

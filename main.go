@@ -18,11 +18,13 @@ func main() {
 	http.HandleFunc("/Parents/Jamais", controller.JamaisHandler)
 	http.HandleFunc("/Parents/Mowgli", controller.MowgliHandler)
 	http.HandleFunc("/Parents/Oshi", controller.OshiHandler)
+	http.HandleFunc("/Parents/Gateau", controller.CakeHandler)
 	http.HandleFunc("/Apply", controller.ApplyHandler)
 	http.HandleFunc("/NotActuallyApply", controller.NotActuallyApplyHandler)
 	http.HandleFunc("/Apply/Send", controller.SendApplicationHandler)
 	http.HandleFunc("/Apply/Success", controller.SuccessfulApplicationHandler)
 	http.HandleFunc("/Contact", controller.ContactHandler)
+	http.HandleFunc("/FAQ", controller.FAQHandler)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./view/static"))))
 
 	port := os.Getenv("PORT")

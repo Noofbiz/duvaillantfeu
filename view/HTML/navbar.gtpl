@@ -10,7 +10,7 @@
                  <span class="icon-bar"></span>
                  <span class="icon-bar"></span>
              </button>
-             <a class="navbar-brand" href="/">Du Vaillant Feu Beaucerons</a>
+             <a class="navbar-brand" href="/">Beaucerons du Vaillant Feu</a>
          </div>
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -48,10 +48,16 @@
                          <li>
                              <a href="/Parents/Oshi">Océane</a>
                          </li>
+                         <li>
+                             <a href="/Parents/Gateau">Gâteau</a>
+                         </li>
                      </ul>
                  </li>
                  <li>
                      <a href="/Apply">Puppy Application</a>
+                 </li>
+                 <li>
+                     <a href="/FAQ">FAQs</a>
                  </li>
                  <li>
                      <a href="/Contact">Contact Us</a>
