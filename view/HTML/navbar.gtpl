@@ -26,6 +26,9 @@
                          </li>
                          <hr>
                          <li>
+                          <a href="/Litters/RLitter2020">R-Litter Spring 2020</a>
+                         </li>
+                         <li>
                           <a href="/Litters/OLitter2018">O-Litter Spring 2018</a>
                          </li>
                          <!--

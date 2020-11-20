@@ -120,73 +120,80 @@
           </div>
           <div class="row">
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Oceane.jpg" alt="Océane">
+              <img class="img-responsive img-portfolio slideshow slideshow_active ocean" src="/static/images/olitter2018/Oceane.jpg" alt="Océane">
               <p class="text-center">
-                Océane Argentée du Vaillant Feu - “Océane"<br />
+                IntlCH Océane Argentée du Vaillant Feu HT CGCA CGCU HTAD-1s HIT - “Océane"<br />
                 Pursuing a career in herding at Action K9 Sports <br />
+                High in Trial AHBA Sept 2020 <br />
+                <a href="https://www.ofa.org/advanced-search?appnum=2109302">Health Results</a> <br />
                 Owned by Beaucerons du Vaillant Feu
               </p>
             </div>
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Ozark.jpg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active ozark" src="/static/images/olitter2018/Ozark.jpg" alt="Ozark">
               <p class="text-center">
-                Ozark Argenté du Vaillant Feu - “Ozark" <br />
-                Pursuing a career in Mondioring with SoCal Mondioring Club <br />
-                Co-owned with Beaucerons du Vaillant Feu
+                IntlCH Ozark Argenté du Vaillant Feu - “Ozark" <br />
+                Beloved Companion Dog <br />
+                <a href="https://www.instagram.com/thepackbitesback/"><i class="fa fa-instagram lg-icon" stlye="color:#125688;" aria-hidden="true"></i></a>
               </p>
             </div>
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Sinatra.jpeg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active sinatra" src="/static/images/olitter2018/Sinatra.jpeg" alt="Sinatra">
               <p class="text-center">
-                Orion Argenté du Vaillant Feu - “Sinatra” <br />
-                Pursuing a career as a medical alert service dog
+                Orion Argenté du Vaillant Feu CD RN CGCA CGCU TKP - “Sinatra” <br />
+                Pursuing a career as a medical alert service dog <br />
+                <a href="https://www.instagram.com/sinatrasd/"><i class="fa fa-instagram lg-icon" stlye="color:#125688;" aria-hidden="true"></i></a>
               </p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Omen.jpg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active omen" src="/static/images/olitter2018/Omen.jpg" alt="Omen">
               <p class="text-center">
                 Optimistic Omen du Vaillant Feu - “Omen" <br />
-                Pursuing a career as a conformation dog & mobility service dog
+                Pursuing a career as a conformation dog & mobility service dog <br />
+                <a href="https://www.ofa.org/advanced-search?appnum=2165514">Health Results</a>
               </p>
             </div>
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Oiseau.jpg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active oiseau" src="/static/images/olitter2018/Oiseau.jpg" alt="Oiseau">
               <p class="text-center">
                 Oiseau Jamais du Vaillant Feu - “Oiseau" <br />
-                Pursuing a career as a conformation & obedience dog <br />
+                Pursuing a career as a conformation & herding dog, currently handled by a Jr Handler <br />
                 Co-owned with Beaucerons du Vaillant Feu
               </p>
             </div>
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Nova.jpg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active nova" src="/static/images/olitter2018/Nova.jpg" alt="Nova">
               <p class="text-center">
                 Oasis Bleue du Vaillant Feu - “Nova" <br />
-                Pursuing a career as a demo dog and in nosework
+                Pursuing a career as a demo dog and in nosework <br />
+                <a href="https://www.ofa.org/advanced-search?appnum=2136632">Health Results</a>
               </p>
             </div>
           </div>
           <div class="row">
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Roux.jpg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active roux" src="/static/images/olitter2018/Roux.jpg" alt="Roux">
               <p class="text-center">
                 O’ahu Argentée du Vaillant Feu - “Roux" <br />
                 Active family pet
               </p>
             </div>
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Olivier.jpg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active olivier" src="/static/images/olitter2018/Olivier.jpg" alt="Olivier">
               <p class="text-center">
                 Ours Noir du Vaillant Feu - “Olivier" <br />
-                Pursuing a career with pollen detection and as a shop dog
+                Living as a shop dog in Puerto Rico
               </p>
             </div>
             <div class="col-md-4">
-              <img class="img-responsive img-rounded" src="/static/images/olitter2018/Zinc.jpeg" alt="Du Vaillant Feu Beaucerons logo.">
+              <img class="img-responsive img-portfolio slideshow slideshow_active zinc" src="/static/images/olitter2018/Zinc.jpeg" alt="Zinc">
               <p class="text-center">
-                Ohanko Noir du Vaillant Feu - “Zinc" <br />
-                Pursuing a career as a personal protection dog through Marvel K9 Dog Training Academy
+                Ohanko Noir du Vaillant Feu CSAU FR Brevet - “Zinc" <br />
+                Pursuing a career as a French Ring dog with Katana K-9 Academy <br />
+                <a href="https://www.ofa.org/advanced-search?appnum=2136990">Health Results</a> <br />
+                <a href="https://www.instagram.com/dubd_posse/"><i class="fa fa-instagram lg-icon" stlye="color:#125688;" aria-hidden="true"></i></a>
               </p>
             </div>
           </div>
@@ -196,6 +203,7 @@
   <!-- /.container -->
 
     {{template "jsfoot"}}
+    <script src="/static/JS/olitter.js"></script>
   </body>
 </html>
 {{end}}

@@ -312,3 +312,19 @@ func FAQHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 }
+
+func TrainingHandler(w http.ResponseWriter, r *http.Request) {
+	err := tmpl.ExecuteTemplate(w, "training", nil)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
+
+func RLitter2020Handler(w http.ResponseWriter, r *http.Request) {
+	err := tmpl.ExecuteTemplate(w, "RLitter2020", nil)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}

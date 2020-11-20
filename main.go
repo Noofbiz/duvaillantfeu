@@ -25,6 +25,8 @@ func main() {
 	http.HandleFunc("/Apply/Success", controller.SuccessfulApplicationHandler)
 	http.HandleFunc("/Contact", controller.ContactHandler)
 	http.HandleFunc("/FAQ", controller.FAQHandler)
+	http.HandleFunc("/Training", controller.TrainingHandler)
+	http.HandleFunc("/Litters/RLitter2020", controller.RLitter2020Handler)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("./view/static"))))
 
 	port := os.Getenv("PORT")

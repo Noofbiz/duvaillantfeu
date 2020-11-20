@@ -35,9 +35,8 @@
       <div class="row">
         <div class="panel">
             <div class="panel-body">
-              <div class="col-md-12">
-                  <h4 class="text-secondary closer-headers-top">Beaucerons du Vaillant Feu</h4>
-                  <h3 class="page-header closer-headers-bottom">"Difficult to describe, unmistakable when present"</h3>
+              <div class="col-md-6 col-md-offset-3">
+                  <img class="img-responsive img-rounded" src="/static/images/index/VFBSlogan2.png" alt="Beaucerons du Vaillant Feu 'Difficult to describe, unmistakable when present'">
               </div>
               <div class="col-md-4">
                   <p> Welcome to the Vaillant Feu kennel, a small volume preservation breeder in Southern California focused on breeding the best in versatility, stability, health and temperament. As a preservation breeder, it is our job to preserve and protect the legacy of the Beauceron and work to move the breed forward. All dogs being bred in this kennel have received Excellent ratings at our Journée de Beauceron from French judges and have proven themselves in different working capacities. Here at Vaillant Feu, we pride ourselves on our beaucerons being as true to working form as they can be and being the "country gentleman" that our standard calls for; never timid or harsh, always unwaveringly frank and courageous. </p>
